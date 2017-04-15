@@ -26,6 +26,7 @@ import com.fh.util.Tools;
   * 03	请求协议参数不完整    
   * 04  用户名或密码错误
   * 05  FKEY验证失败
+  * 不知道好不好用啊
  */
 @Controller
 @RequestMapping(value="/appuser")
@@ -67,6 +68,9 @@ public class IntAppuserController extends BaseController {
 			logAfter(logger);
 		}
 		return AppUtil.returnObject(new PageData(), map);
+	}
+	void fun(){
+		
 	}
 }
 	
